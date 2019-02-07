@@ -51,7 +51,7 @@ apt-get install -y google-chrome-stable
 
 echo "Install Docker..."
 # https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
-apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual docker-ce
+apt-get install docker-ce docker-ce-cli containerd.io
 
 # adds the cuurent user who is sudo'ing to a docker group:
 groupadd docker
